@@ -42,6 +42,14 @@ body {
   gap: 10rem;
 }
 
+.d-flex-section {
+  display: flex;
+  flex-direction: row;
+  justify-content: left;
+  align-items: center;
+  gap: 1.5rem;
+}
+
 .d-flex a {
   display: flex;
   align-items: center;
@@ -135,11 +143,19 @@ ul li {
   font-size: 23px;
 }
 
-.box-subtitle {
+.box-subtitle-one {
   display: flex;
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
+  gap: 20px;
+  margin: 15px 0 20px;
+}
+
+.box-subtitle {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
   gap: 20px;
   margin: 15px 0 20px;
 }
@@ -304,4 +320,26 @@ svg:hover .codepen{
 
 .fp-watermark {
   display: none;
+}
+
+.box-cv {
+  display: flex;
+  align-items: center;
+  width: 188px;
+  padding: 8px;
+  border: 1px solid #00D595;
+  border-radius: 50px;
+  gap: 10px;
+}
+
+.box-cv-img {
+  width: 21px;
+  height: 27px;
+}
+
+.box-tech {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  gap: 25px;
 }

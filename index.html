@@ -47,6 +47,7 @@
         </nav>
       </header>
         <div id="fullpage">
+           <!-- Home -->
           <div class="section" style="margin-top: -60px;">
             <div class="d-flex">
               <div class="d-flex-two">
@@ -54,7 +55,7 @@
                   <h1 class="title-one green-h1">Vladimir</h1>
                   <h1 class="title-one">Sanchez</h1>
                 </div>
-                <div class="box-subtitle">
+                <div class="box-subtitle-one">
                   <hr
                     style="
                       width: 110px;
@@ -203,18 +204,18 @@
 
           <!-- Acerca de mi -->
           <div class="section">
-            <div class="d-flex mt-3">
+            <div class="d-flex-section mt-3">
               <div class="d-flex-two">
                 <div class="box-title">
                   <h1 class="title-one">A cerca de mí</h1>
                 </div>
                 <div class="box-subtitle">
                   <p class="#">
-                    Frontend Developer, bachiller de la carrera de Ing. Sistemas.
+                    Frontend Developer, bachiller de la carrera de Ingeniería de Sistemas.
                     Busco ampliar y fortalecer mis conocimientos y experiencia, brindando soluciones innovadoras a problemas, utilizando herramientas digitales y agregando valor al usuario y a las empresas.
                   </p>
-                  <a href="#">Curriculum Vitae
-                    <img src="./src/image/icon-dowloand.svg" alt="icono de descargar pdf">
+                  <a class="box-cv" href="#">Curriculum Vitae
+                    <img class="box-cv-img" src="./src/image/icon-dowloand.svg" alt="icono de descargar pdf">
                   </a>
                 </div>
               </div>
@@ -231,15 +232,65 @@
 
           </div>
 
+          <!-- Tecnologias -->
+          <div class="section">
+            <div class="box-tech">
+              <h1 class="title-one">Tecnologias</h1>
+              <img src="./src/image/image_technology.svg" alt="">
+            </div>
+            <div class="tech-grid">
+              <div>
+                <img src="./src/image/csharp_logo.svg" alt="logo de C-sharp">
+                <h1>C-Sharp</h1>
+              </div>
+              <div>
+                <img src="./src/image/css.svg" alt="logo de css">
+                <h1>CSS</h1>
+              </div>
+              <div>
+                <img src="./src/image/javascript-logo.svg" alt="logo de javascript">
+                <h1>JS</h1>
+              </div>
+              <div>
+                <img src="./src/image/html-logo.svg" alt="logo de html">
+                <h1>HTML</h1>
+              </div>
+              <div>
+                <img src="./src/image/reactjs-logo.svg" alt="logo de react">
+                <h1>REACT</h1>
+              </div>
+              <div>
+                <img src="./src/image/react-native.svg" alt="logo de react native">
+                <h1>REACT NATIVE</h1>
+              </div>
+              <div>
+                <img src="./src/image/node-js.svg" alt="logo de node js">
+                <h1>NODE JS</h1>
+              </div>
+              <div>
+                <img src="./src/image/mysql-logo.svg" alt="logo de mysql">
+                <h1>MYSQL</h1>
+              </div>
+              <div>
+                <img src="./src/image/npm-logo.svg" alt="logo de npm">
+                <h1>NPM</h1>
+              </div>
+              <div>
+                <img src="./src/image/MongoDB-logo.svg" alt="logo de mongoDB">
+              </div>
+            </div>
+          </div>
+
           <!-- Proyectos -->
           <div class="section">
-            <h1 class="title-one">Proyectos</h1>
+            <h1 class="title-one">Contacto</h1>
           </div>
 
           <!-- Contacto -->
           <div class="section">
             <h1 class="title-one">Contacto</h1>
           </div>
+
         </div>
 
     </main>
@@ -247,24 +298,29 @@
       <!-- Link de Navigation entre las pantallas -->
         <div id="fp-nav" class="fp-right">
           <ul id="myMenu" class="box-numbers">
-            <li data-menuanchor="firstPage" class="d-flex-colum active">
-              <a href="#firstPage">
+            <li data-menuanchor="homePage" class="d-flex-colum active">
+              <a href="#homePage">
                 01
               </a>
             </li>
-            <li data-menuanchor="secundPage" class="d-flex-colum">
-              <a href="#secondPage">
+            <li data-menuanchor="cercademiPage" class="d-flex-colum">
+              <a href="#cercademiPage">
                 02
               </a>
             </li>
-            <li data-menuanchor="thirdPage" class="d-flex-colum">
-              <a href="#thirdPage">
+            <li data-menuanchor="technologyPage" class="d-flex-colum">
+              <a href="#technologyPage">
                 03
               </a>
             </li>
-            <li data-menuanchor="fourthPage" class="d-flex-colum">
-              <a href="#fourthPage">
+            <li data-menuanchor="projectPage" class="d-flex-colum">
+              <a href="#projectPage">
                 04
+              </a>
+            </li>
+            <li data-menuanchor="contactPage" class="d-flex-colum">
+              <a href="#contactPage">
+                05
               </a>
             </li>
           </ul>
@@ -273,5 +329,6 @@
       <!-- Full Page -->
       <script src="https://cdnjs.cloudflare.com/ajax/libs/fullPage.js/4.0.20/fullpage.min.js"></script>
       <script src="./src/js/main.js"></script>
+      
   </body>
 </html>

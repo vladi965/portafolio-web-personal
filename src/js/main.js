@@ -4,7 +4,6 @@ var myFullpage = new fullpage('#fullpage', {
     scrollHorizontally: true,
     navigation: false,
     css3: true,
-    anchors: ['firstPage', 'secundPage', 'thirdPage', 'fourthPage'],
-    navigationTooltis: ['first', 'secund', 'third', 'fourth'],
-
+    anchors: ['homePage', 'cercademiPage', 'technologyPage', 'projectPage', 'contactPage'],
+    navigationTooltis: ['home', 'cercademi', 'technology', 'project', 'contact'],
 });
